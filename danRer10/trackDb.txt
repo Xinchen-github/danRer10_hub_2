@@ -1,3 +1,5 @@
+
+
 track minus
 shortLabel minus
 longLabel minus
@@ -6,11 +8,11 @@ autoScale on
 visibility full
 compositeTrack on
 
-    track 1-cell_DCD012946BR.minus.bigWig
+    track 14To19_somites_DCD012943BR.minus
     parent minus on
-    bigDataUrl CAGE/1-cell_DCD012946BR.minus.bigWig
-    shortLabel 1-cell_DCD012946BR.minus.bigWig
-    longLabel 1-cell_DCD012946BR.minus.bigWig
+    bigDataUrl CAGE/14To19_somites_DCD012943BR.minus.bigWig
+    shortLabel 14To19_somites_DCD012943BR.minus
+    longLabel 14To19_somites_DCD012943BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -18,11 +20,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track 1-cell_DCD012946BR.plus.bigWig
+    track 14To19_somites_DCD012959BR.minus
     parent minus on
-    bigDataUrl CAGE/1-cell_DCD012946BR.plus.bigWig
-    shortLabel 1-cell_DCD012946BR.plus.bigWig
-    longLabel 1-cell_DCD012946BR.plus.bigWig
+    bigDataUrl CAGE/14To19_somites_DCD012959BR.minus.bigWig
+    shortLabel 14To19_somites_DCD012959BR.minus
+    longLabel 14To19_somites_DCD012959BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -30,11 +32,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track 14-19 somites_DCD012943BR.minus.bigWig
+    track 1cell_DCD012946BR.minus
     parent minus on
-    bigDataUrl CAGE/14-19 somites_DCD012943BR.minus.bigWig
-    shortLabel 14-19 somites_DCD012943BR.minus.bigWig
-    longLabel 14-19 somites_DCD012943BR.minus.bigWig
+    bigDataUrl CAGE/1cell_DCD012946BR.minus.bigWig
+    shortLabel 1cell_DCD012946BR.minus
+    longLabel 1cell_DCD012946BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -42,11 +44,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track 14-19 somites_DCD012943BR.plus.bigWig
+    track 30perc_epiboly_DCD012953BR.minus
     parent minus on
-    bigDataUrl CAGE/14-19 somites_DCD012943BR.plus.bigWig
-    shortLabel 14-19 somites_DCD012943BR.plus.bigWig
-    longLabel 14-19 somites_DCD012943BR.plus.bigWig
+    bigDataUrl CAGE/30perc_epiboly_DCD012953BR.minus.bigWig
+    shortLabel 30perc_epiboly_DCD012953BR.minus
+    longLabel 30perc_epiboly_DCD012953BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -54,11 +56,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track 14-19 somites_DCD012959BR.minus.bigWig
+    track 512cell_DCD012933BR.minus
     parent minus on
-    bigDataUrl CAGE/14-19 somites_DCD012959BR.minus.bigWig
-    shortLabel 14-19 somites_DCD012959BR.minus.bigWig
-    longLabel 14-19 somites_DCD012959BR.minus.bigWig
+    bigDataUrl CAGE/512cell_DCD012933BR.minus.bigWig
+    shortLabel 512cell_DCD012933BR.minus
+    longLabel 512cell_DCD012933BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -66,11 +68,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track 14-19 somites_DCD012959BR.plus.bigWig
+    track 64cell_DCD012945BR.minus
     parent minus on
-    bigDataUrl CAGE/14-19 somites_DCD012959BR.plus.bigWig
-    shortLabel 14-19 somites_DCD012959BR.plus.bigWig
-    longLabel 14-19 somites_DCD012959BR.plus.bigWig
+    bigDataUrl CAGE/64cell_DCD012945BR.minus.bigWig
+    shortLabel 64cell_DCD012945BR.minus
+    longLabel 64cell_DCD012945BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -78,11 +80,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track 30%-epiboly_DCD012953BR.minus.bigWig
+    track 90Days_2Years_DCD012939BR.minus
     parent minus on
-    bigDataUrl CAGE/30%-epiboly_DCD012953BR.minus.bigWig
-    shortLabel 30%-epiboly_DCD012953BR.minus.bigWig
-    longLabel 30%-epiboly_DCD012953BR.minus.bigWig
+    bigDataUrl CAGE/90Days_2Years_DCD012939BR.minus.bigWig
+    shortLabel 90Days_2Years_DCD012939BR.minus
+    longLabel 90Days_2Years_DCD012939BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -90,95 +92,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track 30%-epiboly_DCD012953BR.plus.bigWig
-    parent minus on
-    bigDataUrl CAGE/30%-epiboly_DCD012953BR.plus.bigWig
-    shortLabel 30%-epiboly_DCD012953BR.plus.bigWig
-    longLabel 30%-epiboly_DCD012953BR.plus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track 512-cell_DCD012933BR.minus.bigWig
-    parent minus on
-    bigDataUrl CAGE/512-cell_DCD012933BR.minus.bigWig
-    shortLabel 512-cell_DCD012933BR.minus.bigWig
-    longLabel 512-cell_DCD012933BR.minus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track 512-cell_DCD012933BR.plus.bigWig
-    parent minus on
-    bigDataUrl CAGE/512-cell_DCD012933BR.plus.bigWig
-    shortLabel 512-cell_DCD012933BR.plus.bigWig
-    longLabel 512-cell_DCD012933BR.plus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track 64-cell_DCD012945BR.minus.bigWig
-    parent minus on
-    bigDataUrl CAGE/64-cell_DCD012945BR.minus.bigWig
-    shortLabel 64-cell_DCD012945BR.minus.bigWig
-    longLabel 64-cell_DCD012945BR.minus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track 64-cell_DCD012945BR.plus.bigWig
-    parent minus on
-    bigDataUrl CAGE/64-cell_DCD012945BR.plus.bigWig
-    shortLabel 64-cell_DCD012945BR.plus.bigWig
-    longLabel 64-cell_DCD012945BR.plus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track 90 Days-2 Years_DCD012939BR.minus.bigWig
-    parent minus on
-    bigDataUrl CAGE/90 Days-2 Years_DCD012939BR.minus.bigWig
-    shortLabel 90 Days-2 Years_DCD012939BR.minus.bigWig
-    longLabel 90 Days-2 Years_DCD012939BR.minus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track 90 Days-2 Years_DCD012939BR.plus.bigWig
-    parent minus on
-    bigDataUrl CAGE/90 Days-2 Years_DCD012939BR.plus.bigWig
-    shortLabel 90 Days-2 Years_DCD012939BR.plus.bigWig
-    longLabel 90 Days-2 Years_DCD012939BR.plus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track High_DCD012931BR.minus.bigWig
+    track High_DCD012931BR.minus
     parent minus on
     bigDataUrl CAGE/High_DCD012931BR.minus.bigWig
-    shortLabel High_DCD012931BR.minus.bigWig
-    longLabel High_DCD012931BR.minus.bigWig
+    shortLabel High_DCD012931BR.minus
+    longLabel High_DCD012931BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -186,23 +104,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track High_DCD012931BR.plus.bigWig
-    parent minus on
-    bigDataUrl CAGE/High_DCD012931BR.plus.bigWig
-    shortLabel High_DCD012931BR.plus.bigWig
-    longLabel High_DCD012931BR.plus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Oblong_DCD012937BR.minus.bigWig
+    track Oblong_DCD012937BR.minus
     parent minus on
     bigDataUrl CAGE/Oblong_DCD012937BR.minus.bigWig
-    shortLabel Oblong_DCD012937BR.minus.bigWig
-    longLabel Oblong_DCD012937BR.minus.bigWig
+    shortLabel Oblong_DCD012937BR.minus
+    longLabel Oblong_DCD012937BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -210,11 +116,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track Oblong_DCD012937BR.plus.bigWig
+    track Prim_25_DCD012958BR.minus
     parent minus on
-    bigDataUrl CAGE/Oblong_DCD012937BR.plus.bigWig
-    shortLabel Oblong_DCD012937BR.plus.bigWig
-    longLabel Oblong_DCD012937BR.plus.bigWig
+    bigDataUrl CAGE/Prim_25_DCD012958BR.minus.bigWig
+    shortLabel Prim_25_DCD012958BR.minus
+    longLabel Prim_25_DCD012958BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -222,11 +128,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track Prim-25_DCD012958BR.minus.bigWig
+    track Prim_25_DCD012961BR.minus
     parent minus on
-    bigDataUrl CAGE/Prim-25_DCD012958BR.minus.bigWig
-    shortLabel Prim-25_DCD012958BR.minus.bigWig
-    longLabel Prim-25_DCD012958BR.minus.bigWig
+    bigDataUrl CAGE/Prim_25_DCD012961BR.minus.bigWig
+    shortLabel Prim_25_DCD012961BR.minus
+    longLabel Prim_25_DCD012961BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -234,11 +140,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track Prim-25_DCD012958BR.plus.bigWig
+    track Prim_5_DCD012942BR.minus
     parent minus on
-    bigDataUrl CAGE/Prim-25_DCD012958BR.plus.bigWig
-    shortLabel Prim-25_DCD012958BR.plus.bigWig
-    longLabel Prim-25_DCD012958BR.plus.bigWig
+    bigDataUrl CAGE/Prim_5_DCD012942BR.minus.bigWig
+    shortLabel Prim_5_DCD012942BR.minus
+    longLabel Prim_5_DCD012942BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -246,11 +152,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track Prim-25_DCD012961BR.minus.bigWig
+    track Prim_5_DCD012948BR.minus
     parent minus on
-    bigDataUrl CAGE/Prim-25_DCD012961BR.minus.bigWig
-    shortLabel Prim-25_DCD012961BR.minus.bigWig
-    longLabel Prim-25_DCD012961BR.minus.bigWig
+    bigDataUrl CAGE/Prim_5_DCD012948BR.minus.bigWig
+    shortLabel Prim_5_DCD012948BR.minus
+    longLabel Prim_5_DCD012948BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -258,11 +164,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track Prim-25_DCD012961BR.plus.bigWig
+    track Prim_5_DCD012952BR.minus
     parent minus on
-    bigDataUrl CAGE/Prim-25_DCD012961BR.plus.bigWig
-    shortLabel Prim-25_DCD012961BR.plus.bigWig
-    longLabel Prim-25_DCD012961BR.plus.bigWig
+    bigDataUrl CAGE/Prim_5_DCD012952BR.minus.bigWig
+    shortLabel Prim_5_DCD012952BR.minus
+    longLabel Prim_5_DCD012952BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -270,83 +176,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track Prim-5_DCD012942BR.minus.bigWig
-    parent minus on
-    bigDataUrl CAGE/Prim-5_DCD012942BR.minus.bigWig
-    shortLabel Prim-5_DCD012942BR.minus.bigWig
-    longLabel Prim-5_DCD012942BR.minus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim-5_DCD012942BR.plus.bigWig
-    parent minus on
-    bigDataUrl CAGE/Prim-5_DCD012942BR.plus.bigWig
-    shortLabel Prim-5_DCD012942BR.plus.bigWig
-    longLabel Prim-5_DCD012942BR.plus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim-5_DCD012948BR.minus.bigWig
-    parent minus on
-    bigDataUrl CAGE/Prim-5_DCD012948BR.minus.bigWig
-    shortLabel Prim-5_DCD012948BR.minus.bigWig
-    longLabel Prim-5_DCD012948BR.minus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim-5_DCD012948BR.plus.bigWig
-    parent minus on
-    bigDataUrl CAGE/Prim-5_DCD012948BR.plus.bigWig
-    shortLabel Prim-5_DCD012948BR.plus.bigWig
-    longLabel Prim-5_DCD012948BR.plus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim-5_DCD012952BR.minus.bigWig
-    parent minus on
-    bigDataUrl CAGE/Prim-5_DCD012952BR.minus.bigWig
-    shortLabel Prim-5_DCD012952BR.minus.bigWig
-    longLabel Prim-5_DCD012952BR.minus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim-5_DCD012952BR.plus.bigWig
-    parent minus on
-    bigDataUrl CAGE/Prim-5_DCD012952BR.plus.bigWig
-    shortLabel Prim-5_DCD012952BR.plus.bigWig
-    longLabel Prim-5_DCD012952BR.plus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Shield_DCD012936BR.minus.bigWig
+    track Shield_DCD012936BR.minus
     parent minus on
     bigDataUrl CAGE/Shield_DCD012936BR.minus.bigWig
-    shortLabel Shield_DCD012936BR.minus.bigWig
-    longLabel Shield_DCD012936BR.minus.bigWig
+    shortLabel Shield_DCD012936BR.minus
+    longLabel Shield_DCD012936BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -354,23 +188,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track Shield_DCD012936BR.plus.bigWig
-    parent minus on
-    bigDataUrl CAGE/Shield_DCD012936BR.plus.bigWig
-    shortLabel Shield_DCD012936BR.plus.bigWig
-    longLabel Shield_DCD012936BR.plus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Shield_DCD012955BR.minus.bigWig
+    track Shield_DCD012955BR.minus
     parent minus on
     bigDataUrl CAGE/Shield_DCD012955BR.minus.bigWig
-    shortLabel Shield_DCD012955BR.minus.bigWig
-    longLabel Shield_DCD012955BR.minus.bigWig
+    shortLabel Shield_DCD012955BR.minus
+    longLabel Shield_DCD012955BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -378,23 +200,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track Shield_DCD012955BR.plus.bigWig
-    parent minus on
-    bigDataUrl CAGE/Shield_DCD012955BR.plus.bigWig
-    shortLabel Shield_DCD012955BR.plus.bigWig
-    longLabel Shield_DCD012955BR.plus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Sphere_DCD012938BR.minus.bigWig
+    track Sphere_DCD012938BR.minus
     parent minus on
     bigDataUrl CAGE/Sphere_DCD012938BR.minus.bigWig
-    shortLabel Sphere_DCD012938BR.minus.bigWig
-    longLabel Sphere_DCD012938BR.minus.bigWig
+    shortLabel Sphere_DCD012938BR.minus
+    longLabel Sphere_DCD012938BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -402,23 +212,11 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track Sphere_DCD012938BR.plus.bigWig
-    parent minus on
-    bigDataUrl CAGE/Sphere_DCD012938BR.plus.bigWig
-    shortLabel Sphere_DCD012938BR.plus.bigWig
-    longLabel Sphere_DCD012938BR.plus.bigWig
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Sphere_DCD012940BR.minus.bigWig
+    track Sphere_DCD012940BR.minus
     parent minus on
     bigDataUrl CAGE/Sphere_DCD012940BR.minus.bigWig
-    shortLabel Sphere_DCD012940BR.minus.bigWig
-    longLabel Sphere_DCD012940BR.minus.bigWig
+    shortLabel Sphere_DCD012940BR.minus
+    longLabel Sphere_DCD012940BR.minus
     type bigWig
     color 0,0,255
     visibility full
@@ -426,162 +224,372 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track Sphere_DCD012940BR.plus.bigWig
+    track cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     parent minus on
+    bigDataUrl CAGE/cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
+    shortLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    longLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    parent minus on
+    bigDataUrl CAGE/cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
+    shortLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    longLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    parent minus on
+    bigDataUrl CAGE/cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
+    shortLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    longLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    parent minus on
+    bigDataUrl CAGE/cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
+    shortLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    longLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    parent minus on
+    bigDataUrl CAGE/cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
+    shortLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    longLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    parent minus on
+    bigDataUrl CAGE/cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
+    shortLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    longLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+
+track plus
+shortLabel plus
+longLabel plus
+type bigWig
+autoScale on
+visibility full
+compositeTrack on
+
+    track 14To19_somites_DCD012943BR.plus
+    parent plus on
+    bigDataUrl CAGE/14To19_somites_DCD012943BR.plus.bigWig
+    shortLabel 14To19_somites_DCD012943BR.plus
+    longLabel 14To19_somites_DCD012943BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track 14To19_somites_DCD012959BR.plus
+    parent plus on
+    bigDataUrl CAGE/14To19_somites_DCD012959BR.plus.bigWig
+    shortLabel 14To19_somites_DCD012959BR.plus
+    longLabel 14To19_somites_DCD012959BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track 1cell_DCD012946BR.plus
+    parent plus on
+    bigDataUrl CAGE/1cell_DCD012946BR.plus.bigWig
+    shortLabel 1cell_DCD012946BR.plus
+    longLabel 1cell_DCD012946BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track 30perc_epiboly_DCD012953BR.plus
+    parent plus on
+    bigDataUrl CAGE/30perc_epiboly_DCD012953BR.plus.bigWig
+    shortLabel 30perc_epiboly_DCD012953BR.plus
+    longLabel 30perc_epiboly_DCD012953BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track 512cell_DCD012933BR.plus
+    parent plus on
+    bigDataUrl CAGE/512cell_DCD012933BR.plus.bigWig
+    shortLabel 512cell_DCD012933BR.plus
+    longLabel 512cell_DCD012933BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track 64cell_DCD012945BR.plus
+    parent plus on
+    bigDataUrl CAGE/64cell_DCD012945BR.plus.bigWig
+    shortLabel 64cell_DCD012945BR.plus
+    longLabel 64cell_DCD012945BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track 90Days_2Years_DCD012939BR.plus
+    parent plus on
+    bigDataUrl CAGE/90Days_2Years_DCD012939BR.plus.bigWig
+    shortLabel 90Days_2Years_DCD012939BR.plus
+    longLabel 90Days_2Years_DCD012939BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track High_DCD012931BR.plus
+    parent plus on
+    bigDataUrl CAGE/High_DCD012931BR.plus.bigWig
+    shortLabel High_DCD012931BR.plus
+    longLabel High_DCD012931BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Oblong_DCD012937BR.plus
+    parent plus on
+    bigDataUrl CAGE/Oblong_DCD012937BR.plus.bigWig
+    shortLabel Oblong_DCD012937BR.plus
+    longLabel Oblong_DCD012937BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_25_DCD012958BR.plus
+    parent plus on
+    bigDataUrl CAGE/Prim_25_DCD012958BR.plus.bigWig
+    shortLabel Prim_25_DCD012958BR.plus
+    longLabel Prim_25_DCD012958BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_25_DCD012961BR.plus
+    parent plus on
+    bigDataUrl CAGE/Prim_25_DCD012961BR.plus.bigWig
+    shortLabel Prim_25_DCD012961BR.plus
+    longLabel Prim_25_DCD012961BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_5_DCD012942BR.plus
+    parent plus on
+    bigDataUrl CAGE/Prim_5_DCD012942BR.plus.bigWig
+    shortLabel Prim_5_DCD012942BR.plus
+    longLabel Prim_5_DCD012942BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_5_DCD012948BR.plus
+    parent plus on
+    bigDataUrl CAGE/Prim_5_DCD012948BR.plus.bigWig
+    shortLabel Prim_5_DCD012948BR.plus
+    longLabel Prim_5_DCD012948BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_5_DCD012952BR.plus
+    parent plus on
+    bigDataUrl CAGE/Prim_5_DCD012952BR.plus.bigWig
+    shortLabel Prim_5_DCD012952BR.plus
+    longLabel Prim_5_DCD012952BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Shield_DCD012936BR.plus
+    parent plus on
+    bigDataUrl CAGE/Shield_DCD012936BR.plus.bigWig
+    shortLabel Shield_DCD012936BR.plus
+    longLabel Shield_DCD012936BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Shield_DCD012955BR.plus
+    parent plus on
+    bigDataUrl CAGE/Shield_DCD012955BR.plus.bigWig
+    shortLabel Shield_DCD012955BR.plus
+    longLabel Shield_DCD012955BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Sphere_DCD012938BR.plus
+    parent plus on
+    bigDataUrl CAGE/Sphere_DCD012938BR.plus.bigWig
+    shortLabel Sphere_DCD012938BR.plus
+    longLabel Sphere_DCD012938BR.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Sphere_DCD012940BR.plus
+    parent plus on
     bigDataUrl CAGE/Sphere_DCD012940BR.plus.bigWig
-    shortLabel Sphere_DCD012940BR.plus.bigWig
-    longLabel Sphere_DCD012940BR.plus.bigWig
+    shortLabel Sphere_DCD012940BR.plus
+    longLabel Sphere_DCD012940BR.plus
     type bigWig
-    color 0,0,255
+    color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
 
-
-
-    track cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    parent minus on
-    bigDataUrl CAGE/cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted.bw
-    shortLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    longLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
+    track cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    parent plus on
+    bigDataUrl CAGE/cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
+    shortLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    longLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     type bigWig
-    color 0,0,255
+    color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
 
-    track cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    parent minus on
-    bigDataUrl CAGE/cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted.bw
-    shortLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    longLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
+    track cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    parent plus on
+    bigDataUrl CAGE/cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
+    shortLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    longLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     type bigWig
-    color 0,0,255
+    color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
 
-    track cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    parent minus on
-    bigDataUrl CAGE/cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted.bw
-    shortLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    longLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
+    track cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    parent plus on
+    bigDataUrl CAGE/cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
+    shortLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    longLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     type bigWig
-    color 0,0,255
+    color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
 
-    track cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    parent minus on
-    bigDataUrl CAGE/cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted.bw
-    shortLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    longLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
+    track cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    parent plus on
+    bigDataUrl CAGE/cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
+    shortLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    longLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     type bigWig
-    color 0,0,255
+    color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
 
-    track cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    parent minus on
-    bigDataUrl CAGE/cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted.bw
-    shortLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    longLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
+    track cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    parent plus on
+    bigDataUrl CAGE/cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
+    shortLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    longLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     type bigWig
-    color 0,0,255
+    color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
 
-    track cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    parent minus on
-    bigDataUrl CAGE/cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted.bw
-    shortLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    longLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
+    track cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    parent plus on
+    bigDataUrl CAGE/cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
+    shortLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    longLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     type bigWig
-    color 0,0,255
+    color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
-
-    track cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    parent minus on
-    bigDataUrl CAGE/cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted.bw
-    shortLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    longLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    parent minus on
-    bigDataUrl CAGE/cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted.bw
-    shortLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    longLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    parent minus on
-    bigDataUrl CAGE/cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted.bw
-    shortLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    longLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    parent minus on
-    bigDataUrl CAGE/cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted.bw
-    shortLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    longLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    parent minus on
-    bigDataUrl CAGE/cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted.bw
-    shortLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    longLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.-.shifted
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    parent minus on
-    bigDataUrl CAGE/cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted.bw
-    shortLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    longLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.+.shifted
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
 
