@@ -1,0 +1,5 @@
+hub danRer10_CAGE 
+shortLabel danRer10_CAGE
+longLabel danRer10_CAGE
+genomesFile genomes.txt
+email damir.baranasic@lms.mrc.ac.uk
