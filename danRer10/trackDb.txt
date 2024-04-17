@@ -16,6 +16,7 @@ compositeTrack on
     bigDataUrl CAGE/1cell_DCD012946BR.minus.bigWig
     shortLabel 1cell_DCD012946BR.minus
     longLabel 1cell_DCD012946BR.minus
+    priority 1
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -29,6 +30,7 @@ compositeTrack on
     bigDataUrl CAGE/64cell_DCD012945BR.minus.bigWig
     shortLabel 64cell_DCD012945BR.minus
     longLabel 64cell_DCD012945BR.minus
+    priority 1.1
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -42,6 +44,7 @@ compositeTrack on
     bigDataUrl CAGE/512cell_DCD012933BR.minus.bigWig
     shortLabel 512cell_DCD012933BR.minus
     longLabel 512cell_DCD012933BR.minus
+    priority 1.2
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -55,6 +58,7 @@ compositeTrack on
     bigDataUrl CAGE/High_DCD012931BR.minus.bigWig
     shortLabel High_DCD012931BR.minus
     longLabel High_DCD012931BR.minus
+    priority 1.3
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -68,6 +72,7 @@ compositeTrack on
     bigDataUrl CAGE/Oblong_DCD012937BR.minus.bigWig
     shortLabel Oblong_DCD012937BR.minus
     longLabel Oblong_DCD012937BR.minus
+    priority 1.4
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -81,6 +86,7 @@ compositeTrack on
     bigDataUrl CAGE/Sphere_DCD012938BR.minus.bigWig
     shortLabel Sphere_DCD012938BR.minus
     longLabel Sphere_DCD012938BR.minus
+    priority 1.5
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -94,6 +100,7 @@ compositeTrack on
     bigDataUrl CAGE/Sphere_DCD012940BR.minus.bigWig
     shortLabel Sphere_DCD012940BR.minus
     longLabel Sphere_DCD012940BR.minus
+    priority 1.6
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -107,6 +114,7 @@ compositeTrack on
     bigDataUrl CAGE/30perc_epiboly_DCD012953BR.minus.bigWig
     shortLabel 30perc_epiboly_DCD012953BR.minus
     longLabel 30perc_epiboly_DCD012953BR.minus
+    priority 1.7
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -120,6 +128,7 @@ compositeTrack on
     bigDataUrl CAGE/Shield_DCD012936BR.minus.bigWig
     shortLabel Shield_DCD012936BR.minus
     longLabel Shield_DCD012936BR.minus
+    priority 1.8
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -133,6 +142,7 @@ compositeTrack on
     bigDataUrl CAGE/Shield_DCD012955BR.minus.bigWig
     shortLabel Shield_DCD012955BR.minus
     longLabel Shield_DCD012955BR.minus
+    priority 1.9
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -146,6 +156,7 @@ compositeTrack on
     bigDataUrl CAGE/14To19_somites_DCD012943BR.minus.bigWig
     shortLabel 14To19_somites_DCD012943BR.minus
     longLabel 14To19_somites_DCD012943BR.minus
+    priority 2
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -159,6 +170,7 @@ compositeTrack on
     bigDataUrl CAGE/14To19_somites_DCD012959BR.minus.bigWig
     shortLabel 14To19_somites_DCD012959BR.minus
     longLabel 14To19_somites_DCD012959BR.minus
+    priority 2.1
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -172,6 +184,7 @@ compositeTrack on
     bigDataUrl CAGE/Prim_5_DCD012942BR.minus.bigWig
     shortLabel Prim_5_DCD012942BR.minus
     longLabel Prim_5_DCD012942BR.minus
+    priority 2.2
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -185,6 +198,7 @@ compositeTrack on
     bigDataUrl CAGE/Prim_5_DCD012948BR.minus.bigWig
     shortLabel Prim_5_DCD012948BR.minus
     longLabel Prim_5_DCD012948BR.minus
+    priority 2.3
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -198,6 +212,7 @@ compositeTrack on
     bigDataUrl CAGE/Prim_5_DCD012952BR.minus.bigWig
     shortLabel Prim_5_DCD012952BR.minus
     longLabel Prim_5_DCD012952BR.minus
+    priority 2.4
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -211,6 +226,7 @@ compositeTrack on
     bigDataUrl CAGE/Prim_25_DCD012958BR.minus.bigWig
     shortLabel Prim_25_DCD012958BR.minus
     longLabel Prim_25_DCD012958BR.minus
+    priority 2.5
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -224,6 +240,7 @@ compositeTrack on
     bigDataUrl CAGE/Prim_25_DCD012961BR.minus.bigWig
     shortLabel Prim_25_DCD012961BR.minus
     longLabel Prim_25_DCD012961BR.minus
+    priority 2.6
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -237,6 +254,7 @@ compositeTrack on
     bigDataUrl CAGE/90Days_2Years_DCD012939BR.minus.bigWig
     shortLabel 90Days_2Years_DCD012939BR.minus
     longLabel 90Days_2Years_DCD012939BR.minus
+    priority 2.7
     type bigWig
     subGroups experiment=time_course
     color 0,0,255
@@ -250,6 +268,7 @@ compositeTrack on
     bigDataUrl CAGE/cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
     shortLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     longLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    priority 2.8
     type bigWig
     subGroups experiment=PGC_soma
     color 0,0,255
@@ -263,6 +282,7 @@ compositeTrack on
     bigDataUrl CAGE/cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
     shortLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     longLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    priority 2.9
     type bigWig
     subGroups experiment=PGC_soma
     color 0,0,255
@@ -276,6 +296,7 @@ compositeTrack on
     bigDataUrl CAGE/cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
     shortLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     longLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    priority 3
     type bigWig
     subGroups experiment=PGC_soma
     color 0,0,255
@@ -289,6 +310,7 @@ compositeTrack on
     bigDataUrl CAGE/cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
     shortLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     longLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    priority 3.1
     type bigWig
     subGroups experiment=PGC_soma
     color 0,0,255
@@ -302,6 +324,7 @@ compositeTrack on
     bigDataUrl CAGE/cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
     shortLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     longLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    priority 3.2
     type bigWig
     subGroups experiment=PGC_soma
     color 0,0,255
@@ -315,6 +338,7 @@ compositeTrack on
     bigDataUrl CAGE/cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
     shortLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     longLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    priority 3.3
     type bigWig
     subGroups experiment=PGC_soma
     color 0,0,255
@@ -340,6 +364,7 @@ compositeTrack on
     bigDataUrl CAGE/1cell_DCD012946BR.plus.bigWig
     shortLabel 1cell_DCD012946BR.plus
     longLabel 1cell_DCD012946BR.plus
+    priority 1
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -353,6 +378,7 @@ compositeTrack on
     bigDataUrl CAGE/64cell_DCD012945BR.plus.bigWig
     shortLabel 64cell_DCD012945BR.plus
     longLabel 64cell_DCD012945BR.plus
+    priority 1.1
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -366,6 +392,7 @@ compositeTrack on
     bigDataUrl CAGE/512cell_DCD012933BR.plus.bigWig
     shortLabel 512cell_DCD012933BR.plus
     longLabel 512cell_DCD012933BR.plus
+    priority 1.2
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -379,6 +406,7 @@ compositeTrack on
     bigDataUrl CAGE/High_DCD012931BR.plus.bigWig
     shortLabel High_DCD012931BR.plus
     longLabel High_DCD012931BR.plus
+    priority 1.3
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -392,6 +420,7 @@ compositeTrack on
     bigDataUrl CAGE/Oblong_DCD012937BR.plus.bigWig
     shortLabel Oblong_DCD012937BR.plus
     longLabel Oblong_DCD012937BR.plus
+    priority 1.4
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -405,6 +434,7 @@ compositeTrack on
     bigDataUrl CAGE/Sphere_DCD012938BR.plus.bigWig
     shortLabel Sphere_DCD012938BR.plus
     longLabel Sphere_DCD012938BR.plus
+    priority 1.5
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -418,6 +448,7 @@ compositeTrack on
     bigDataUrl CAGE/Sphere_DCD012940BR.plus.bigWig
     shortLabel Sphere_DCD012940BR.plus
     longLabel Sphere_DCD012940BR.plus
+    priority 1.6
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -431,6 +462,7 @@ compositeTrack on
     bigDataUrl CAGE/30perc_epiboly_DCD012953BR.plus.bigWig
     shortLabel 30perc_epiboly_DCD012953BR.plus
     longLabel 30perc_epiboly_DCD012953BR.plus
+    priority 1.7
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -444,6 +476,7 @@ compositeTrack on
     bigDataUrl CAGE/Shield_DCD012936BR.plus.bigWig
     shortLabel Shield_DCD012936BR.plus
     longLabel Shield_DCD012936BR.plus
+    priority 1.8
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -457,6 +490,7 @@ compositeTrack on
     bigDataUrl CAGE/Shield_DCD012955BR.plus.bigWig
     shortLabel Shield_DCD012955BR.plus
     longLabel Shield_DCD012955BR.plus
+    priority 1.9
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -470,6 +504,7 @@ compositeTrack on
     bigDataUrl CAGE/14To19_somites_DCD012943BR.plus.bigWig
     shortLabel 14To19_somites_DCD012943BR.plus
     longLabel 14To19_somites_DCD012943BR.plus
+    priority 2
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -483,6 +518,7 @@ compositeTrack on
     bigDataUrl CAGE/14To19_somites_DCD012959BR.plus.bigWig
     shortLabel 14To19_somites_DCD012959BR.plus
     longLabel 14To19_somites_DCD012959BR.plus
+    priority 2.1
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -496,6 +532,7 @@ compositeTrack on
     bigDataUrl CAGE/Prim_5_DCD012942BR.plus.bigWig
     shortLabel Prim_5_DCD012942BR.plus
     longLabel Prim_5_DCD012942BR.plus
+    priority 2.2
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -509,6 +546,7 @@ compositeTrack on
     bigDataUrl CAGE/Prim_5_DCD012948BR.plus.bigWig
     shortLabel Prim_5_DCD012948BR.plus
     longLabel Prim_5_DCD012948BR.plus
+    priority 2.3
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -522,6 +560,7 @@ compositeTrack on
     bigDataUrl CAGE/Prim_5_DCD012952BR.plus.bigWig
     shortLabel Prim_5_DCD012952BR.plus
     longLabel Prim_5_DCD012952BR.plus
+    priority 2.4
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -535,6 +574,7 @@ compositeTrack on
     bigDataUrl CAGE/Prim_25_DCD012958BR.plus.bigWig
     shortLabel Prim_25_DCD012958BR.plus
     longLabel Prim_25_DCD012958BR.plus
+    priority 2.5
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -548,6 +588,7 @@ compositeTrack on
     bigDataUrl CAGE/Prim_25_DCD012961BR.plus.bigWig
     shortLabel Prim_25_DCD012961BR.plus
     longLabel Prim_25_DCD012961BR.plus
+    priority 2.6
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -561,6 +602,7 @@ compositeTrack on
     bigDataUrl CAGE/90Days_2Years_DCD012939BR.plus.bigWig
     shortLabel 90Days_2Years_DCD012939BR.plus
     longLabel 90Days_2Years_DCD012939BR.plus
+    priority 2.7
     type bigWig
     subGroups experiment=time_course
     color 255,0,0
@@ -574,6 +616,7 @@ compositeTrack on
     bigDataUrl CAGE/cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
     shortLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     longLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    priority 2.8
     type bigWig
     subGroups experiment=PGC_soma
     color 255,0,0
@@ -587,6 +630,7 @@ compositeTrack on
     bigDataUrl CAGE/cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
     shortLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     longLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    priority 2.9
     type bigWig
     subGroups experiment=PGC_soma
     color 255,0,0
@@ -600,6 +644,7 @@ compositeTrack on
     bigDataUrl CAGE/cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
     shortLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     longLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    priority 3
     type bigWig
     subGroups experiment=PGC_soma
     color 255,0,0
@@ -613,6 +658,7 @@ compositeTrack on
     bigDataUrl CAGE/cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
     shortLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     longLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    priority 3.1
     type bigWig
     subGroups experiment=PGC_soma
     color 255,0,0
@@ -626,6 +672,7 @@ compositeTrack on
     bigDataUrl CAGE/cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
     shortLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     longLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    priority 3.2
     type bigWig
     subGroups experiment=PGC_soma
     color 255,0,0
@@ -639,6 +686,7 @@ compositeTrack on
     bigDataUrl CAGE/cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
     shortLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     longLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    priority 3.3
     type bigWig
     subGroups experiment=PGC_soma
     color 255,0,0
