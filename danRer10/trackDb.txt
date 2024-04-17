@@ -4,33 +4,12 @@ track minus
 shortLabel minus
 longLabel minus
 type bigWig
+subGroup1 experiment experiment time_course=time_course PGC_soma=PGC_soma
+dimensions dimX=experiment
+sortOrder experiment=+
 autoScale on
 visibility full
 compositeTrack on
-
-    track 14To19_somites_DCD012943BR.minus
-    parent minus on
-    bigDataUrl CAGE/14To19_somites_DCD012943BR.minus.bigWig
-    shortLabel 14To19_somites_DCD012943BR.minus
-    longLabel 14To19_somites_DCD012943BR.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track 14To19_somites_DCD012959BR.minus
-    parent minus on
-    bigDataUrl CAGE/14To19_somites_DCD012959BR.minus.bigWig
-    shortLabel 14To19_somites_DCD012959BR.minus
-    longLabel 14To19_somites_DCD012959BR.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
 
     track 1cell_DCD012946BR.minus
     parent minus on
@@ -38,30 +17,7 @@ compositeTrack on
     shortLabel 1cell_DCD012946BR.minus
     longLabel 1cell_DCD012946BR.minus
     type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track 30perc_epiboly_DCD012953BR.minus
-    parent minus on
-    bigDataUrl CAGE/30perc_epiboly_DCD012953BR.minus.bigWig
-    shortLabel 30perc_epiboly_DCD012953BR.minus
-    longLabel 30perc_epiboly_DCD012953BR.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track 512cell_DCD012933BR.minus
-    parent minus on
-    bigDataUrl CAGE/512cell_DCD012933BR.minus.bigWig
-    shortLabel 512cell_DCD012933BR.minus
-    longLabel 512cell_DCD012933BR.minus
-    type bigWig
+    subGroups experiment=time_course
     color 0,0,255
     visibility full
     maxHeightPixels 100:32:8
@@ -74,18 +30,20 @@ compositeTrack on
     shortLabel 64cell_DCD012945BR.minus
     longLabel 64cell_DCD012945BR.minus
     type bigWig
+    subGroups experiment=time_course
     color 0,0,255
     visibility full
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
 
-    track 90Days_2Years_DCD012939BR.minus
+    track 512cell_DCD012933BR.minus
     parent minus on
-    bigDataUrl CAGE/90Days_2Years_DCD012939BR.minus.bigWig
-    shortLabel 90Days_2Years_DCD012939BR.minus
-    longLabel 90Days_2Years_DCD012939BR.minus
+    bigDataUrl CAGE/512cell_DCD012933BR.minus.bigWig
+    shortLabel 512cell_DCD012933BR.minus
+    longLabel 512cell_DCD012933BR.minus
     type bigWig
+    subGroups experiment=time_course
     color 0,0,255
     visibility full
     maxHeightPixels 100:32:8
@@ -98,6 +56,7 @@ compositeTrack on
     shortLabel High_DCD012931BR.minus
     longLabel High_DCD012931BR.minus
     type bigWig
+    subGroups experiment=time_course
     color 0,0,255
     visibility full
     maxHeightPixels 100:32:8
@@ -110,90 +69,7 @@ compositeTrack on
     shortLabel Oblong_DCD012937BR.minus
     longLabel Oblong_DCD012937BR.minus
     type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim_25_DCD012958BR.minus
-    parent minus on
-    bigDataUrl CAGE/Prim_25_DCD012958BR.minus.bigWig
-    shortLabel Prim_25_DCD012958BR.minus
-    longLabel Prim_25_DCD012958BR.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim_25_DCD012961BR.minus
-    parent minus on
-    bigDataUrl CAGE/Prim_25_DCD012961BR.minus.bigWig
-    shortLabel Prim_25_DCD012961BR.minus
-    longLabel Prim_25_DCD012961BR.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim_5_DCD012942BR.minus
-    parent minus on
-    bigDataUrl CAGE/Prim_5_DCD012942BR.minus.bigWig
-    shortLabel Prim_5_DCD012942BR.minus
-    longLabel Prim_5_DCD012942BR.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim_5_DCD012948BR.minus
-    parent minus on
-    bigDataUrl CAGE/Prim_5_DCD012948BR.minus.bigWig
-    shortLabel Prim_5_DCD012948BR.minus
-    longLabel Prim_5_DCD012948BR.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim_5_DCD012952BR.minus
-    parent minus on
-    bigDataUrl CAGE/Prim_5_DCD012952BR.minus.bigWig
-    shortLabel Prim_5_DCD012952BR.minus
-    longLabel Prim_5_DCD012952BR.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Shield_DCD012936BR.minus
-    parent minus on
-    bigDataUrl CAGE/Shield_DCD012936BR.minus.bigWig
-    shortLabel Shield_DCD012936BR.minus
-    longLabel Shield_DCD012936BR.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Shield_DCD012955BR.minus
-    parent minus on
-    bigDataUrl CAGE/Shield_DCD012955BR.minus.bigWig
-    shortLabel Shield_DCD012955BR.minus
-    longLabel Shield_DCD012955BR.minus
-    type bigWig
+    subGroups experiment=time_course
     color 0,0,255
     visibility full
     maxHeightPixels 100:32:8
@@ -206,6 +82,7 @@ compositeTrack on
     shortLabel Sphere_DCD012938BR.minus
     longLabel Sphere_DCD012938BR.minus
     type bigWig
+    subGroups experiment=time_course
     color 0,0,255
     visibility full
     maxHeightPixels 100:32:8
@@ -218,18 +95,150 @@ compositeTrack on
     shortLabel Sphere_DCD012940BR.minus
     longLabel Sphere_DCD012940BR.minus
     type bigWig
+    subGroups experiment=time_course
     color 0,0,255
     visibility full
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
 
-    track cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    track 30perc_epiboly_DCD012953BR.minus
     parent minus on
-    bigDataUrl CAGE/cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
-    shortLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
-    longLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    bigDataUrl CAGE/30perc_epiboly_DCD012953BR.minus.bigWig
+    shortLabel 30perc_epiboly_DCD012953BR.minus
+    longLabel 30perc_epiboly_DCD012953BR.minus
     type bigWig
+    subGroups experiment=time_course
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Shield_DCD012936BR.minus
+    parent minus on
+    bigDataUrl CAGE/Shield_DCD012936BR.minus.bigWig
+    shortLabel Shield_DCD012936BR.minus
+    longLabel Shield_DCD012936BR.minus
+    type bigWig
+    subGroups experiment=time_course
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Shield_DCD012955BR.minus
+    parent minus on
+    bigDataUrl CAGE/Shield_DCD012955BR.minus.bigWig
+    shortLabel Shield_DCD012955BR.minus
+    longLabel Shield_DCD012955BR.minus
+    type bigWig
+    subGroups experiment=time_course
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track 14To19_somites_DCD012943BR.minus
+    parent minus on
+    bigDataUrl CAGE/14To19_somites_DCD012943BR.minus.bigWig
+    shortLabel 14To19_somites_DCD012943BR.minus
+    longLabel 14To19_somites_DCD012943BR.minus
+    type bigWig
+    subGroups experiment=time_course
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track 14To19_somites_DCD012959BR.minus
+    parent minus on
+    bigDataUrl CAGE/14To19_somites_DCD012959BR.minus.bigWig
+    shortLabel 14To19_somites_DCD012959BR.minus
+    longLabel 14To19_somites_DCD012959BR.minus
+    type bigWig
+    subGroups experiment=time_course
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_5_DCD012942BR.minus
+    parent minus on
+    bigDataUrl CAGE/Prim_5_DCD012942BR.minus.bigWig
+    shortLabel Prim_5_DCD012942BR.minus
+    longLabel Prim_5_DCD012942BR.minus
+    type bigWig
+    subGroups experiment=time_course
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_5_DCD012948BR.minus
+    parent minus on
+    bigDataUrl CAGE/Prim_5_DCD012948BR.minus.bigWig
+    shortLabel Prim_5_DCD012948BR.minus
+    longLabel Prim_5_DCD012948BR.minus
+    type bigWig
+    subGroups experiment=time_course
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_5_DCD012952BR.minus
+    parent minus on
+    bigDataUrl CAGE/Prim_5_DCD012952BR.minus.bigWig
+    shortLabel Prim_5_DCD012952BR.minus
+    longLabel Prim_5_DCD012952BR.minus
+    type bigWig
+    subGroups experiment=time_course
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_25_DCD012958BR.minus
+    parent minus on
+    bigDataUrl CAGE/Prim_25_DCD012958BR.minus.bigWig
+    shortLabel Prim_25_DCD012958BR.minus
+    longLabel Prim_25_DCD012958BR.minus
+    type bigWig
+    subGroups experiment=time_course
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_25_DCD012961BR.minus
+    parent minus on
+    bigDataUrl CAGE/Prim_25_DCD012961BR.minus.bigWig
+    shortLabel Prim_25_DCD012961BR.minus
+    longLabel Prim_25_DCD012961BR.minus
+    type bigWig
+    subGroups experiment=time_course
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track 90Days_2Years_DCD012939BR.minus
+    parent minus on
+    bigDataUrl CAGE/90Days_2Years_DCD012939BR.minus.bigWig
+    shortLabel 90Days_2Years_DCD012939BR.minus
+    longLabel 90Days_2Years_DCD012939BR.minus
+    type bigWig
+    subGroups experiment=time_course
     color 0,0,255
     visibility full
     maxHeightPixels 100:32:8
@@ -242,6 +251,7 @@ compositeTrack on
     shortLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     longLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     type bigWig
+    subGroups experiment=PGC_soma
     color 0,0,255
     visibility full
     maxHeightPixels 100:32:8
@@ -254,18 +264,20 @@ compositeTrack on
     shortLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     longLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     type bigWig
+    subGroups experiment=PGC_soma
     color 0,0,255
     visibility full
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
 
-    track cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    track cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     parent minus on
-    bigDataUrl CAGE/cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
-    shortLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
-    longLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    bigDataUrl CAGE/cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
+    shortLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    longLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     type bigWig
+    subGroups experiment=PGC_soma
     color 0,0,255
     visibility full
     maxHeightPixels 100:32:8
@@ -278,6 +290,7 @@ compositeTrack on
     shortLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     longLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     type bigWig
+    subGroups experiment=PGC_soma
     color 0,0,255
     visibility full
     maxHeightPixels 100:32:8
@@ -290,6 +303,20 @@ compositeTrack on
     shortLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     longLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
     type bigWig
+    subGroups experiment=PGC_soma
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    parent minus on
+    bigDataUrl CAGE/cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted.bw
+    shortLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    longLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.minus.shifted
+    type bigWig
+    subGroups experiment=PGC_soma
     color 0,0,255
     visibility full
     maxHeightPixels 100:32:8
@@ -301,33 +328,12 @@ track plus
 shortLabel plus
 longLabel plus
 type bigWig
+subGroup1 experiment experiment time_course=time_course PGC_soma=PGC_soma
+dimensions dimX=experiment
+sortOrder experiment=+
 autoScale on
 visibility full
 compositeTrack on
-
-    track 14To19_somites_DCD012943BR.plus
-    parent plus on
-    bigDataUrl CAGE/14To19_somites_DCD012943BR.plus.bigWig
-    shortLabel 14To19_somites_DCD012943BR.plus
-    longLabel 14To19_somites_DCD012943BR.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track 14To19_somites_DCD012959BR.plus
-    parent plus on
-    bigDataUrl CAGE/14To19_somites_DCD012959BR.plus.bigWig
-    shortLabel 14To19_somites_DCD012959BR.plus
-    longLabel 14To19_somites_DCD012959BR.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
 
     track 1cell_DCD012946BR.plus
     parent plus on
@@ -335,30 +341,7 @@ compositeTrack on
     shortLabel 1cell_DCD012946BR.plus
     longLabel 1cell_DCD012946BR.plus
     type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track 30perc_epiboly_DCD012953BR.plus
-    parent plus on
-    bigDataUrl CAGE/30perc_epiboly_DCD012953BR.plus.bigWig
-    shortLabel 30perc_epiboly_DCD012953BR.plus
-    longLabel 30perc_epiboly_DCD012953BR.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track 512cell_DCD012933BR.plus
-    parent plus on
-    bigDataUrl CAGE/512cell_DCD012933BR.plus.bigWig
-    shortLabel 512cell_DCD012933BR.plus
-    longLabel 512cell_DCD012933BR.plus
-    type bigWig
+    subGroups experiment=time_course
     color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
@@ -371,18 +354,20 @@ compositeTrack on
     shortLabel 64cell_DCD012945BR.plus
     longLabel 64cell_DCD012945BR.plus
     type bigWig
+    subGroups experiment=time_course
     color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
 
-    track 90Days_2Years_DCD012939BR.plus
+    track 512cell_DCD012933BR.plus
     parent plus on
-    bigDataUrl CAGE/90Days_2Years_DCD012939BR.plus.bigWig
-    shortLabel 90Days_2Years_DCD012939BR.plus
-    longLabel 90Days_2Years_DCD012939BR.plus
+    bigDataUrl CAGE/512cell_DCD012933BR.plus.bigWig
+    shortLabel 512cell_DCD012933BR.plus
+    longLabel 512cell_DCD012933BR.plus
     type bigWig
+    subGroups experiment=time_course
     color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
@@ -395,6 +380,7 @@ compositeTrack on
     shortLabel High_DCD012931BR.plus
     longLabel High_DCD012931BR.plus
     type bigWig
+    subGroups experiment=time_course
     color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
@@ -407,90 +393,7 @@ compositeTrack on
     shortLabel Oblong_DCD012937BR.plus
     longLabel Oblong_DCD012937BR.plus
     type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim_25_DCD012958BR.plus
-    parent plus on
-    bigDataUrl CAGE/Prim_25_DCD012958BR.plus.bigWig
-    shortLabel Prim_25_DCD012958BR.plus
-    longLabel Prim_25_DCD012958BR.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim_25_DCD012961BR.plus
-    parent plus on
-    bigDataUrl CAGE/Prim_25_DCD012961BR.plus.bigWig
-    shortLabel Prim_25_DCD012961BR.plus
-    longLabel Prim_25_DCD012961BR.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim_5_DCD012942BR.plus
-    parent plus on
-    bigDataUrl CAGE/Prim_5_DCD012942BR.plus.bigWig
-    shortLabel Prim_5_DCD012942BR.plus
-    longLabel Prim_5_DCD012942BR.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim_5_DCD012948BR.plus
-    parent plus on
-    bigDataUrl CAGE/Prim_5_DCD012948BR.plus.bigWig
-    shortLabel Prim_5_DCD012948BR.plus
-    longLabel Prim_5_DCD012948BR.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Prim_5_DCD012952BR.plus
-    parent plus on
-    bigDataUrl CAGE/Prim_5_DCD012952BR.plus.bigWig
-    shortLabel Prim_5_DCD012952BR.plus
-    longLabel Prim_5_DCD012952BR.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Shield_DCD012936BR.plus
-    parent plus on
-    bigDataUrl CAGE/Shield_DCD012936BR.plus.bigWig
-    shortLabel Shield_DCD012936BR.plus
-    longLabel Shield_DCD012936BR.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track Shield_DCD012955BR.plus
-    parent plus on
-    bigDataUrl CAGE/Shield_DCD012955BR.plus.bigWig
-    shortLabel Shield_DCD012955BR.plus
-    longLabel Shield_DCD012955BR.plus
-    type bigWig
+    subGroups experiment=time_course
     color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
@@ -503,6 +406,7 @@ compositeTrack on
     shortLabel Sphere_DCD012938BR.plus
     longLabel Sphere_DCD012938BR.plus
     type bigWig
+    subGroups experiment=time_course
     color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
@@ -515,18 +419,150 @@ compositeTrack on
     shortLabel Sphere_DCD012940BR.plus
     longLabel Sphere_DCD012940BR.plus
     type bigWig
+    subGroups experiment=time_course
     color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
 
-    track cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    track 30perc_epiboly_DCD012953BR.plus
     parent plus on
-    bigDataUrl CAGE/cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
-    shortLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
-    longLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    bigDataUrl CAGE/30perc_epiboly_DCD012953BR.plus.bigWig
+    shortLabel 30perc_epiboly_DCD012953BR.plus
+    longLabel 30perc_epiboly_DCD012953BR.plus
     type bigWig
+    subGroups experiment=time_course
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Shield_DCD012936BR.plus
+    parent plus on
+    bigDataUrl CAGE/Shield_DCD012936BR.plus.bigWig
+    shortLabel Shield_DCD012936BR.plus
+    longLabel Shield_DCD012936BR.plus
+    type bigWig
+    subGroups experiment=time_course
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Shield_DCD012955BR.plus
+    parent plus on
+    bigDataUrl CAGE/Shield_DCD012955BR.plus.bigWig
+    shortLabel Shield_DCD012955BR.plus
+    longLabel Shield_DCD012955BR.plus
+    type bigWig
+    subGroups experiment=time_course
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track 14To19_somites_DCD012943BR.plus
+    parent plus on
+    bigDataUrl CAGE/14To19_somites_DCD012943BR.plus.bigWig
+    shortLabel 14To19_somites_DCD012943BR.plus
+    longLabel 14To19_somites_DCD012943BR.plus
+    type bigWig
+    subGroups experiment=time_course
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track 14To19_somites_DCD012959BR.plus
+    parent plus on
+    bigDataUrl CAGE/14To19_somites_DCD012959BR.plus.bigWig
+    shortLabel 14To19_somites_DCD012959BR.plus
+    longLabel 14To19_somites_DCD012959BR.plus
+    type bigWig
+    subGroups experiment=time_course
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_5_DCD012942BR.plus
+    parent plus on
+    bigDataUrl CAGE/Prim_5_DCD012942BR.plus.bigWig
+    shortLabel Prim_5_DCD012942BR.plus
+    longLabel Prim_5_DCD012942BR.plus
+    type bigWig
+    subGroups experiment=time_course
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_5_DCD012948BR.plus
+    parent plus on
+    bigDataUrl CAGE/Prim_5_DCD012948BR.plus.bigWig
+    shortLabel Prim_5_DCD012948BR.plus
+    longLabel Prim_5_DCD012948BR.plus
+    type bigWig
+    subGroups experiment=time_course
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_5_DCD012952BR.plus
+    parent plus on
+    bigDataUrl CAGE/Prim_5_DCD012952BR.plus.bigWig
+    shortLabel Prim_5_DCD012952BR.plus
+    longLabel Prim_5_DCD012952BR.plus
+    type bigWig
+    subGroups experiment=time_course
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_25_DCD012958BR.plus
+    parent plus on
+    bigDataUrl CAGE/Prim_25_DCD012958BR.plus.bigWig
+    shortLabel Prim_25_DCD012958BR.plus
+    longLabel Prim_25_DCD012958BR.plus
+    type bigWig
+    subGroups experiment=time_course
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Prim_25_DCD012961BR.plus
+    parent plus on
+    bigDataUrl CAGE/Prim_25_DCD012961BR.plus.bigWig
+    shortLabel Prim_25_DCD012961BR.plus
+    longLabel Prim_25_DCD012961BR.plus
+    type bigWig
+    subGroups experiment=time_course
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track 90Days_2Years_DCD012939BR.plus
+    parent plus on
+    bigDataUrl CAGE/90Days_2Years_DCD012939BR.plus.bigWig
+    shortLabel 90Days_2Years_DCD012939BR.plus
+    longLabel 90Days_2Years_DCD012939BR.plus
+    type bigWig
+    subGroups experiment=time_course
     color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
@@ -539,6 +575,7 @@ compositeTrack on
     shortLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     longLabel cage.PGC_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     type bigWig
+    subGroups experiment=PGC_soma
     color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
@@ -551,18 +588,20 @@ compositeTrack on
     shortLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     longLabel cage.PGC_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     type bigWig
+    subGroups experiment=PGC_soma
     color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
 
-    track cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    track cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     parent plus on
-    bigDataUrl CAGE/cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
-    shortLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
-    longLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    bigDataUrl CAGE/cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
+    shortLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    longLabel cage.PGC_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     type bigWig
+    subGroups experiment=PGC_soma
     color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
@@ -575,6 +614,7 @@ compositeTrack on
     shortLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     longLabel cage.soma_high.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     type bigWig
+    subGroups experiment=PGC_soma
     color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
@@ -587,6 +627,20 @@ compositeTrack on
     shortLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     longLabel cage.soma_high.rep2.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
     type bigWig
+    subGroups experiment=PGC_soma
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    parent plus on
+    bigDataUrl CAGE/cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted.bw
+    shortLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    longLabel cage.soma_24hpf.rep1.Fabio.2019.danRer10.goodChr.sorted.5prim.plus.shifted
+    type bigWig
+    subGroups experiment=PGC_soma
     color 255,0,0
     visibility full
     maxHeightPixels 100:32:8
